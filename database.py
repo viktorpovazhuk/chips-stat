@@ -3,6 +3,7 @@ import psycopg2
 import pandas as pd
 
 DATABASE_URL = os.environ['DATABASE_URL']
+# DATABASE_URL = "postgresql://postgres@localhost:5432/linuxhint"
 
 
 def fetch():
@@ -12,4 +13,5 @@ def fetch():
                  FROM users 
                  """
     results = pd.read_sql(query, conn)
+    # print(results)
     return results

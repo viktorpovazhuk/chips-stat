@@ -7,4 +7,4 @@ app = Flask(__name__)
 @app.route("/")
 def home_view():
     users = database.fetch()
-    return list(users)
+    return str(users)
