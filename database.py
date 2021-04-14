@@ -57,6 +57,8 @@ class DBWorker:
 
     def open_connection(self):
         self._connection = psycopg2.connect(DATABASE_URL)  # , sslmode='require'
+        print('Database connection opened.')
+
 
     def close_connection(self):
         if self._connection is not None:

@@ -11,5 +11,6 @@ def home_view():
     database.worker.delete_user(users[1][0])
     database.worker.update_user(users[2][0], "sanya")
     database.worker.add_user()
+    users = database.worker.get_users()
     database.worker.close_connection()
     return str(users)

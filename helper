@@ -10,4 +10,7 @@ turned off -> find another instruction
 ----------------------------
 daddy's advice -> don't need logs
 1) try to send the same query in query tool in pgadmin -> pgadmin added ->
-2) if sent -> check _cursor.execute() function
+2) if sent -> check _cursor.execute() function -> fixed !!
+----------------------------
+connect to heroku db
+add table
