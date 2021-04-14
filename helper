@@ -1,0 +1,13 @@
+1) try INSERT in local bd
+1.1) change connection parameters just in 1 place -> just one connection opening -> create class
+1.2) try on simplest -> to the same:
+int
+character car[]
+1.3) why it isn't saved? -> find logs -> find NORMAL instruction
+failed - can't create file -> google error
+can't start as user -> another instruction step
+turned off -> find another instruction
+----------------------------
+daddy's advice -> don't need logs
+1) try to send the same query in query tool in pgadmin -> pgadmin added ->
+2) if sent -> check _cursor.execute() function
